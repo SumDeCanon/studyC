@@ -78,14 +78,14 @@ int main() {
     int arr3[] = { 7,6,3,4,5 };
 
     int* parr[3] = { arr1,arr2,arr3 };
-    
+
     int i = 0;
     for (i = 0; i < 3;i++) {
         int j = 0;
         for (j = 0;j < 5;j++) {
             printf("%d ", *(parr[i] + j));
         }
-        printf("\n"); 
+        printf("\n");
     }
     return 0;
 }
